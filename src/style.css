@@ -1,0 +1,41 @@
+main {
+    display: flex;
+    gap :20px;
+    justify-content: space-between;
+}
+
+.todo-container{
+
+    padding: 10px;
+    background-color : yellowgreen;
+    width: 40%;
+}
+
+.done-container{
+    padding: 10px;
+    background-color :lightgreen;
+    width: 40%;
+    height: 91vh;
+}
+
+.done-btn {
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+ button {
+    cursor: pointer;
+ }
+
+li{
+     display:flex;
+     justify-content: space-between;
+     max-width: 70%;
+     margin-top : 7px;
+ }
+
+ .span {
+     cursor: pointer;
+     color : rgb(16, 16, 172);
+ }
